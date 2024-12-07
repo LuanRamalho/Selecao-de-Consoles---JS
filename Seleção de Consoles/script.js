@@ -16,13 +16,15 @@ const consoles = {
         "Playstation 2": "https://s2-techtudo.glbimg.com/4y3nejQcBv7GeSvfrGsLIP3MIp8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/q/E/zZjJhTRlqeGY8aX3sg7w/playstation-2-ps2-20-anos-fatos-curiosos-console-sony.jpg",
         "Playstation 3": "https://s2-techtudo.glbimg.com/E1ugszzmAoxVsXMwoOyT9qg-794=/0x0:695x575/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2017/02/07/9252394sz2.jpg",
         "Playstation 4": "https://cdn.awsli.com.br/800x800/118/118222/produto/16619909/e975ecf5dc.jpg",
-        "Playstation 5": "https://m.media-amazon.com/images/I/41UWxQoHMPL.jpg"
+        "Playstation 5": "https://m.media-amazon.com/images/I/41UWxQoHMPL.jpg",
+        "Playstation Vita": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSxCvT9Y9vv0b8kJTx73RYcBXnbJGNlRj7XkZ_90SIuYvelii5dUPokaNB-hGEuBMyKvRUT9fPT-M5FH9ixgtm5RJ0OESSp75vGyAHQoXFQtHHxzUzCk5qPEBDW3DEoKrOvJG9OduktC6pjjAw97B8hUuJuSlvuUUbEqiaxk_s7JKvl8UWwRs_AHDSKg/s1280/ps-vita-games.jpg",
+        "Playstation Port√°til": "https://ogimg.infoglobo.com.br/in/2831848-c6d-b2c/FT1086A/Credito-Divulgacao.jpg"
     },
     "Microsoft": {
         "Xbox": "https://http2.mlstatic.com/D_827727-MLB80143857277_102024-C.jpg",
         "Xbox 360": "https://cdn.techshake.com/imagens/xbox-360.jpg?class=article",
         "Xbox One": "https://cdn.awsli.com.br/300x300/138/138431/produto/8598395/b1a8857924-nyoxic.jpg",
-        "Xbox SÈries": "https://s2-techtudo.glbimg.com/VJOcrZovPEV0zF9KWInD-luUfFQ=/0x0:1920x1078/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/K/j/Wwd5EBTJmwJp6wfgJ1ag/xbox-series-s.jpg"
+        "Xbox S√©ries": "https://s2-techtudo.glbimg.com/VJOcrZovPEV0zF9KWInD-luUfFQ=/0x0:1920x1078/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/K/j/Wwd5EBTJmwJp6wfgJ1ag/xbox-series-s.jpg"
     },
     "Nintendo": {
         "Nintendo Entertainment System": "https://i5.walmartimages.com/seo/Restored-Nintendo-Entertainment-System-NES-1985-Console-with-Official-OEM-Controller-Refurbished_31e134fe-94c0-4ff1-a2c1-7323b90d0e0a_1.4e1c5ca2512c2f9413e90763e0d5b942.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
@@ -96,6 +98,6 @@ document.getElementById("show-button").addEventListener("click", () => {
         img.alt = selectedConsole;
         imageContainer.appendChild(img);
     } else {
-        imageContainer.innerHTML = "<p>Imagem n„o disponÌvel.</p>";
+        imageContainer.innerHTML = "<p>Imagem n√£o dispon√≠vel.</p>";
     }
 });
